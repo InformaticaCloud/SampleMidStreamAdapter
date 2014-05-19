@@ -45,5 +45,10 @@ Run the JUnit Tests
 1. Run the INFA_JUnit test suite to verify project was imported correctly.
 2. See the readme.txt for more information on the Junit tests
 
+Build The Package
+---------------
+1. Set the name of your package in the Ant build.xml configuration file. eg. "\<property name="dir.finalpack" location="${dir.dist}/package-sample.1.zip"/\>"
+2. For each new build you will deploy to Informatica Cloud update the version number.
+
 
 
